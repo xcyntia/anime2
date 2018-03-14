@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<title>ćwiczenia z js</title>
+	<head>
+
+	</head>
+<body>
+
+	<button id="jeden" onclick="brave()">pushit</button>
+
+	<button id="dwa" onclick="love()">hello</button>
+
+	<button id="trzy" onclick="lady()">ohcomeon</button>
+
+<p id="demo"></p>
+	<script type="text/javascript">
+
+		function japko(a,b){
+		console.log(a+b);
+
+		}
+
+		japko(2,5);
+
+		function brave(){
+			alert("be cearful");
+		}
+
+		function love(){
+
+			confirm("Are you sure about this?");
+		}
+
+		function lady(){
+
+			var imie = prompt("What is your name?","Harry Potter");
+			if (imie != null){
+				
+
+				document.getElementById("demo").innerHTML = "Hello"+ imie + "How are you?";
+			}
+		}
+
+	</script>
+
+</body>
